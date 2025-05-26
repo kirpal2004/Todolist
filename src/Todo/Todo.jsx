@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { TodoForm } from "./TodoForm";
 import { TodoList } from "./TodoList";
 import { TodoDate } from "./TodoDate";
+import { Analytics } from "@vercel/analytics/react";
 import "./Todo.css";
 
 const todokey = "ReactTodo";
@@ -130,6 +131,8 @@ export const Todo = () => {
           </button>
         </section>
       </section>
+      <Analytics />
+
     </>
   );
 };
