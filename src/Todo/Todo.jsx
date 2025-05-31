@@ -95,7 +95,7 @@ export const Todo = () => {
       {/* Background Video */}
       <div className="background-video">
         <video autoPlay muted loop>
-          <source src="/i.mp4" type="video/mp4" />
+          <source src="/i.mp4" type="bgvideo/mp4" />
           Your browser does not support HTML5 video.
         </video>
       </div>
