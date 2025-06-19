@@ -92,7 +92,8 @@ export const Todo = () => {
 
   return (
     <>
-      {/* Background Video */}
+    
+      Background Video
       <div className="background-video">
         <video autoPlay muted loop>
           <source src="/i.mp4" type="bgvideo/mp4" />
@@ -101,7 +102,8 @@ export const Todo = () => {
       </div>
 
       {/* Background Audio */}
-      <audio ref={audioRef} src="/audio/bindi.mp3" loop />
+      <audio ref={audioRef} src="/audio/bindi.mp3" loop /> 
+      
 
       <section className="todo-container">
         <header>
